@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <!-- Weather app -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 text-center weather-app">
+                <form>
+                    <div class="mb-3 d-flex gap-2">
+                        <input type="search" class="form-control" id="search" aria-describedby="emailHelp" />
+                        <button type="submit" class="btn btn-primary" id="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <h2 class="text-white cityname">Islamabad</h2>
+                <p class="text-white" style="color: #717172 !important;">Live Weather Update</p>
+
+                <!-- Sun -->
+                <div class="weather-icon">
+                     <i class="bi bi-cloud-sun-fill"></i>
+                </div>
+
+                <!-- Temperature -->
+                <h2 class="text-white" id="temperature"></h2>
+
+                <div class="more-info d-flex gap-3 pt-4">
+                    <div class="row gap-3">
+                        <div class="col-lg-12">
+                            <div class="details">
+                                <div class="row">
+                                    <p class="text-white m-0">Cloud</p>
+                                    <h5 class="text-white fs-2 m-0 cloud">3</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="details">
+                                <div class="row">
+                                    <p class="text-white m-0">Humidity</p>
+                                    <h5 class="text-white fs-2 m-0 humidity">3</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row gap-3">
+                        <div class="col-lg-12">
+                            <div class="details">
+                                <div class="row">
+                                    <p class="text-white m-0">Wind</p>
+                                    <h5 class="text-white fs-2 m-0 wind">3</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="details">
+                                <div class="row">
+                                    <p class="text-white m-0">Chance of Rain</p>
+                                    <h5 class="text-white fs-2 m-0 rain">3</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap script  -->
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Connect Script here -->
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: #323C4B !important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-app{
+    background-color: #0C131E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.details{
+    background-color: #202C3B;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Weather Icon */
+.weather-icon i{
+    font-size: 100px;
+}
+
+
+.bi-cloud-sun-fill{
+    color: #FCE570;
+}
+
+.bi-cloud-drizzle-fill{
+    color: white !important;
+}
